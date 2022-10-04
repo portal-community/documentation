@@ -32,7 +32,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/dninomiya/port"
   },
   "copyright": {
-    "message": "Copyright © 2022 My Project, Inc. Built with Docusaurus.",
+    "message": "Copyright © 2022 Port.",
     "description": "The footer copyright"
   }
 }
