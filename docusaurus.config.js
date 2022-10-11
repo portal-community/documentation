@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Port Doc',
   tagline: 'Port Doc',
-  url: 'https://dninomiya.github.io/port/',
+  url: 'https://portal-community.github.io/documentation/',
   baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'dninomiya', // Usually your GitHub org/user name.
-  projectName: 'port', // Usually your repo name.
+  organizationName: 'portal-community', // Usually your GitHub org/user name.
+  projectName: 'documentation', // Usually your repo name.
   trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -39,13 +39,13 @@ const config = {
           showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/dninomiya/port/edit/main/docs/',
+          editUrl: 'https://github.com/portal-community/documentation/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/dninomiya/port/edit/main/blog/',
+          editUrl: 'https://github.com/portal-community/documentation/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -75,7 +75,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/dninomiya/port',
+            href: 'https://github.com/portal-community/documentation',
             label: 'GitHub',
             position: 'right',
           },
@@ -119,7 +119,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/dninomiya/port',
+                href: 'https://github.com/portal-community/documentation',
               },
             ],
           },
