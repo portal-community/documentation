@@ -9,7 +9,7 @@ const config = {
   title: 'Port Doc',
   tagline: 'Port Doc',
   url: 'https://dninomiya.github.io/port/',
-  baseUrl: '/port/',
+  baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
