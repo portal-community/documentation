@@ -3,6 +3,3 @@ contact_links:
   - name: 要望、質問
     url: https://github.com/portal-community/documentation/discussions
     about: 要望や質問はディスカッションでお願いします。
-  - name: 個別の不具合報告
-    email: mailto:daichi.ninomiya@deer.co.jp
-    about: 個人情報を含む不具合報告とサポートはメールからお願いします。
