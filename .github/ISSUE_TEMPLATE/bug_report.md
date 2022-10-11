@@ -1,38 +1,31 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: 不具合報告
+about: 不具合報告にご協力いただきありがとうございます
 title: ''
-labels: ''
-assignees: ''
-
+labels: 'bug'
+assignees: 'dninomiya'
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**不具合の詳細**
+不具合に関する簡潔な説明
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**再現方法**
+不具合を再現する手順:
+1. '...' 画面へ移動
+2. '....' ボタンをクリック
+3. エラーが表示される/何も起きない、など
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**本来期待している動作**
+本来何が起きて欲しかったのか、必要に応じてご記載ください
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**スクリーンショット**
+可能な場合、問題の説明に役立つスクリーンショットを追加してください。
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**ご利用の端末:**
+ - 機種: Mac/Windows/iPhone/Androidなど
+ - OS: [e.g. iOS] 分かる場合
+ - ブラウザ [例 Chrome, Safari]
+ - バージョン [e.g. 22] 分かる場合
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+**その他補足事項**
+問題に関するその他の補足事項をここに追加します。 
