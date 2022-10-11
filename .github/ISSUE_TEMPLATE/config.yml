@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: GitHub Community Support
-    url: https://github.com/orgs/community/discussions
-    about: Please ask and answer questions here.
-  - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
-    about: Please report security vulnerabilities here.
+  - name: 要望、質問
+    url: https://github.com/portal-community/documentation/discussions
+    about: 要望や質問はディスカッションでお願いします。
+  - name: 個別の不具合報告
+    url: daichi.ninomiya@deer.co.jp
+    about: 個人情報を含む不具合報告とサポートはメールからお願いします。
