@@ -1,31 +1,40 @@
----
 name: 不具合報告
-about: 不具合報告にご協力いただきありがとうございます
-title: ''
-labels: 'bug'
-assignees: 'dninomiya'
----
-
-**不具合の詳細**
-不具合に関する簡潔な説明
-
-**再現方法**
-不具合を再現する手順:
-1. '...' 画面へ移動
-2. '....' ボタンをクリック
-3. エラーが表示される/何も起きない、など
-
-**本来期待している動作**
-本来何が起きて欲しかったのか、必要に応じてご記載ください
-
-**スクリーンショット**
-可能な場合、問題の説明に役立つスクリーンショットを追加してください。
-
-**ご利用の端末:**
- - 機種: Mac/Windows/iPhone/Androidなど
- - OS: [e.g. iOS] 分かる場合
- - ブラウザ [例 Chrome, Safari]
- - バージョン [e.g. 22] 分かる場合
-
-**その他補足事項**
-問題に関するその他の補足事項をここに追加します。 
+description: 不具合報告フォーム
+title: "[不具合]: "
+labels: ["bug"]
+assignees:
+  - dninomiya
+body:
+  - type: markdown
+    attributes:
+      value: |
+        不具合報告にご協力いただきありがとうございます
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 不具合の詳細
+      description: できるだけ具体的に記載をお願いします。できればスクリーンショットを添えてください。
+      placeholder: __画面で__すると__が発生した
+      value: ""
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: どのブラウザをお使いですか？
+      multiple: true
+      options:
+        - Chrome
+        - Chrome(Android)
+        - Safari
+        - Safari(iOS)
+        - Microsoft Edge
+        - Firefox
