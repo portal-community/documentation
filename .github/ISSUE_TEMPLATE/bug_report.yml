@@ -15,14 +15,14 @@ body:
       label: 内容
       description: 可能な範囲で具体的にお願いします。スクリーンショットがあると助かります！
       placeholder: ＿画面で__をしようとしたら添付画像のようになりました
-      value: ""
+      value: "_"
     validations:
       required: true
   - type: dropdown
     id: browsers
     attributes:
       label: ご使用のブラウザ
-      multiple: true
+      multiple: false
       options:
         - Chrome
         - Safari
@@ -32,7 +32,7 @@ body:
     id: os
     attributes:
       label: ご使用の端末
-      multiple: true
+      multiple: false
       options:
         - Mac
         - iPhone
