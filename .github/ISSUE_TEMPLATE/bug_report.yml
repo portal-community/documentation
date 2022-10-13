@@ -15,7 +15,7 @@ body:
       label: 内容
       description: 可能な範囲で具体的にお願いします。スクリーンショットがあると助かります！
       placeholder: ＿画面で__をしようとしたら添付画像のようになりました
-      value: "_"
+      value: ""
     validations:
       required: true
   - type: dropdown
