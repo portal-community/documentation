@@ -1,14 +1,14 @@
-name: 不具合報告
-description: 不具合報告フォーム
-title: "[不具合]: "
-labels: ["bug"]
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
 assignees:
-  - dninomiya
+  - octocat
 body:
   - type: markdown
     attributes:
       value: |
-        不具合報告にご協力いただきありがとうございます
+        Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
     attributes:
@@ -20,21 +20,43 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: 不具合の詳細
-      description: できるだけ具体的に記載をお願いします。できればスクリーンショットを添えてください。
-      placeholder: __画面で__すると__が発生した
-      value: ""
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
     validations:
       required: true
   - type: dropdown
     id: browsers
     attributes:
-      label: どのブラウザをお使いですか？
+      label: What browsers are you seeing the problem on?
       multiple: true
       options:
-        - Chrome
-        - Chrome(Android)
-        - Safari
-        - Safari(iOS)
-        - Microsoft Edge
         - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
