@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkport_doc=self.webpackChunkport_doc||[]).push([[876],{9630:e=>{e.exports=JSON.parse('[{"label":"\u958b\u767a","permalink":"/ja/blog/tags/\u958b\u767a","count":1}]')}}]);

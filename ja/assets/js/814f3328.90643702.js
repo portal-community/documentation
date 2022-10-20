@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkport_doc=self.webpackChunkport_doc||[]).push([[535],{5641:t=>{t.exports=JSON.parse('{"title":"\u6700\u8fd1\u306e\u6295\u7a3f","items":[{"title":"\u6700\u521d\u306e\u6295\u7a3f","permalink":"/ja/blog/fist-post"}]}')}}]);
