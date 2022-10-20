@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Portal Doc',
   tagline: 'Portal Doc',
-  url: 'https://portal.website',
+  url: 'https://docs.portal.website',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
