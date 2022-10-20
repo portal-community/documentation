@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Portal Doc Blog</title>
-        <link>https://portal.website/ja/blog</link>
+        <link>https://docs.portal.website/ja/blog</link>
         <description>Portal Doc Blog</description>
         <lastBuildDate>Thu, 20 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>ja</language>
         <item>
             <title><![CDATA[最初の投稿]]></title>
-            <link>https://portal.website/ja/blog/fist-post</link>
+            <link>https://docs.portal.website/ja/blog/fist-post</link>
             <guid>fist-post</guid>
             <pubDate>Thu, 20 Oct 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[This is the summary of a very long blog post,]]></description>
