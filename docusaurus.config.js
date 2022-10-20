@@ -6,18 +6,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Port Doc',
-  tagline: 'Port Doc',
-  url: 'https://dninomiya.github.io/port/',
-  baseUrl: '/port/',
+  title: 'Portal Doc',
+  tagline: 'Portal Doc',
+  url: 'https://portal-community.github.io/',
+  baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'dninomiya', // Usually your GitHub org/user name.
-  projectName: 'port', // Usually your repo name.
+  organizationName: 'portal-community', // Usually your GitHub org/user name.
+  projectName: 'documentation', // Usually your repo name.
   trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -61,9 +61,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Port',
+        title: 'Portal',
         logo: {
-          alt: 'Port Logo',
+          alt: 'Portal Logo',
           src: 'img/logo.svg',
         },
         items: [

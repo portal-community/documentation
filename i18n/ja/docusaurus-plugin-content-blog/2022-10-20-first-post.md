@@ -1,8 +1,8 @@
 ---
-slug: long-blog-post
-title: Long Blog Post
-authors: endi
-tags: [hello, docusaurus]
+slug: fist-post
+title: 最初の投稿
+authors: dninomiya
+tags: [開発]
 ---
 
 This is the summary of a very long blog post,
