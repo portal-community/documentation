@@ -101,12 +101,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Discord',
+                href: 'https://discord.gg/XJEQtFSTfZ',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/d151005',
+                href: 'https://twitter.com/portalorg',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/portal-community/documentation/discussions',
               },
             ],
           },
@@ -118,13 +122,17 @@ const config = {
                 to: '/blog',
               },
               {
+                label: 'Developer',
+                href: 'https://twitter.com/d151005',
+              },
+              {
                 label: 'GitHub',
-                href: 'https://github.com/dninomiya/port',
+                href: 'https://github.com/portal-community/documentation',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Port.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Portal.`,
       },
       prism: {
         theme: lightCodeTheme,

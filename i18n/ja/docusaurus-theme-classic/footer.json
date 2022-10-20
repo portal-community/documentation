@@ -1,10 +1,10 @@
 {
   "link.title.Docs": {
-    "message": "Docs",
+    "message": "ドキュメント",
     "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "コミュニティ",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
@@ -13,6 +13,10 @@
   },
   "link.item.label.Tutorial": {
     "message": "Tutorial",
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
+  },
+  "link.item.label.Developer": {
+    "message": "開発者",
     "description": "The label of footer link with label=Tutorial linking to /docs/intro"
   },
   "link.item.label.Stack Overflow": {
@@ -24,7 +28,7 @@
     "description": "The label of footer link with label=Twitter linking to https://twitter.com/d151005"
   },
   "link.item.label.Blog": {
-    "message": "Blog",
+    "message": "ブログ",
     "description": "The label of footer link with label=Blog linking to /blog"
   },
   "link.item.label.GitHub": {
@@ -32,7 +36,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/dninomiya/port"
   },
   "copyright": {
-    "message": "Copyright © 2022 Port.",
+    "message": "Copyright © 2022 Portal.",
     "description": "The footer copyright"
   }
 }
