@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Portal Doc',
   tagline: 'Portal Doc',
-  url: 'https://portal-community.github.io/',
-  baseUrl: '/documentation/',
+  url: 'https://portal.website',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
