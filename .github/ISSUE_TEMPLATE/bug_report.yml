@@ -1,0 +1,40 @@
+name: 不具合報告
+description: File a bug report
+title: "[不具合]: "
+labels: ["bug"]
+assignees:
+  - dninomiya
+body:
+  - type: markdown
+    attributes:
+      value: |
+        レポートにご協力いただきありがとうございます！
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 内容
+      description: 可能な範囲で具体的にお願いします。スクリーンショットがあると助かります！
+      placeholder: ＿画面で__をしようとしたら添付画像のようになりました
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: ご使用のブラウザ
+      multiple: false
+      options:
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Firefox
+  - type: dropdown
+    id: os
+    attributes:
+      label: ご使用の端末
+      multiple: false
+      options:
+        - Mac
+        - iPhone
+        - iPad
+        - Android
+        - Windows

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 要望、質問
+    url: https://github.com/portal-community/documentation/discussions
+    about: 要望や質問はディスカッションでお願いします。

@@ -39,13 +39,15 @@ const config = {
           showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/dninomiya/port/edit/main/docs/',
+          editUrl:
+            'https://github.com/portal-community/documentation/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/dninomiya/port/edit/main/blog/',
+          editUrl:
+            'https://github.com/portal-community/documentation/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -75,7 +77,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/dninomiya/port',
+            href: 'https://github.com/portal-community/documentation',
             label: 'GitHub',
             position: 'right',
           },
