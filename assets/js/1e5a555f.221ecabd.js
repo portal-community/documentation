@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkport_doc=self.webpackChunkport_doc||[]).push([[241],{1784:e=>{e.exports=JSON.parse('{"permalink":"/documentation/blog/tags/development","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
